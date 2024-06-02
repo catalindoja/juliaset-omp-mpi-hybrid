@@ -13,7 +13,7 @@ void tga_write ( int w, int h, unsigned char rgb[], char *filename );
 
 int main()
 {
-    int size = 5;
+    int size = 8;
     int h = 1000 * size;
     unsigned char *rgb;
     int w = 1000 * size;
